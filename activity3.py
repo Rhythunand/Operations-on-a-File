@@ -1,0 +1,12 @@
+file = open('Codingal1.txt', 'r')
+print("Reading first Line...")
+print(file.readline())
+file.close()
+
+file2 = open('Codingal1.txt', 'r')
+print("Reading multiple lines")
+print(file2.readline())
+print(file2.readline())
+print(file2.readline())
+print(file2.readline())
+print(file2.readline())
